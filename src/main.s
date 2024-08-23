@@ -1,6 +1,5 @@
 .global _start # Declare the entry point of the program
 
-.text
 _start:
   mov $14, %rdi     # Put the length of the message into register rdi
   lea message, %rsi # Load the address of the message into register rsi
